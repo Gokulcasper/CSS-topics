@@ -1,0 +1,26 @@
+h1{
+    font: 40px "Roboto", sans-serif;
+}
+
+p{
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+}
+.csbor{
+    background-color: green;
+    background-size: cover;
+    height: 650px;
+    text-align: center;
+}
+.csbor > h3{
+    font-size: 35px ;
+}
+.csbor > input{
+    color: rgb(251, 251, 251);
+    background-color: rgb(255, 0, 38);
+    border-top: dotted;
+    border-bottom: dashed;
+    border-left: solid;
+    border-right: solid;
+    border-radius: 10px;
+}
