@@ -55,7 +55,7 @@ body{
     margin-top: 100px;
     margin-bottom: 100px;
     width:fit-content;
-    max-width: 70%;
+    /* max-width: 80%; */
     /* margin-left:100px; */
     display: flex;
     flex-direction: column;
@@ -65,12 +65,25 @@ body{
 .higwid h3{
     font-weight: bold;
     font-size: 30px;
+    /* Text Formatting */
     text-align: center;
-
+    text-shadow: 3px 2px rgb(236, 107, 107);
+    text-decoration: underline;
+    text-transform: uppercase;
 }
+
+/* Outline */
 .higwid {
 border: 2px solid black;
-outline: 5px solid red;
-outline-style: dashed;
+outline: 5px solid rgb(1, 101, 154);
+/* outline-style: dashed; */
+/* TextFormatting */
+text-align: justify;
+text-transform: capitalize;
+text-indent: 25px;
+letter-spacing: 1.5px;
+line-height: 1.5;
+direction:ltr;
+word-spacing:10px ;
 }
 
