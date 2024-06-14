@@ -191,7 +191,7 @@ visibility: hidden;
 .positiondiv{
     background-color: cadetblue;
     /* text-align: center; */
-    width: 100%;
+    /* width: 100%; */
     padding: 20px;
 }
 .Static{
@@ -210,7 +210,7 @@ visibility: hidden;
 }
 
 .fixed{
-    margin-top: 10px;
+    margin-top: 20px;
     padding: 5px;
     position: fixed;
     bottom: 0;
@@ -248,3 +248,59 @@ visibility: hidden;
     text-align: center;
     background-color: #73ad21;
 }
+
+.floatdiv{
+    background-color: darkcyan;
+    color: beige;
+    /* text-align: center; */
+    padding: 30px;
+    
+}
+.floatdiv img{
+float: right;
+background-color: coral;
+padding: 10px;
+margin-left: 20px;
+/* margin: 10px;
+margin-top: 35px; */
+}
+
+.floatcolor{
+
+    width: 100%;
+    background-color: darkslategrey;
+    display: flex;
+    justify-content: space-around;
+}
+
+.floatcolor div{
+    padding: 20px;
+    text-align: center;
+    width: 100px;
+}
+
+.red{
+background: red;
+/* float: left; */
+}
+.green{
+background: green;
+/* float: left; */
+}
+.blue{
+background: blue;
+/* float: left; */
+}
+.yellow{
+background: yellow;
+float: right;
+}
+.orange{
+background: orange;
+float: right;
+}
+.skyblue{
+background: skyblue;
+float: right;
+}
+
