@@ -156,3 +156,35 @@ background-color: rgb(34, 85, 251);
     background-color: dodgerblue;
     color: aliceblue;
 }
+
+.displaydiv{
+background-color:aquamarine;
+text-align: center;
+}
+.displaydiv h1{ 
+padding: 20px;
+}
+
+.displaydiv a{
+    color:green;
+    text-decoration: none;
+}
+.displaydiv li{
+list-style-type: none;
+display: inline;
+margin-right: 50px;
+
+}
+.displaydiv a:hover{
+    color:navy;
+}
+.displaydiv ul{
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hidden{
+/* display: none; */
+visibility: hidden;
+}
