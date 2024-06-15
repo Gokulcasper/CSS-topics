@@ -265,42 +265,67 @@ margin-left: 20px;
 margin-top: 35px; */
 }
 
-.floatcolor{
+#float{
+    background-color: rgb(189, 208, 208);
+    padding: 5px 10px 0px 10px;
+    height: 400px;
+    margin-bottom: 70px;
+    
+}
+/* .floatcolor{
 
     width: 100%;
     background-color: darkslategrey;
     display: flex;
     justify-content: space-around;
-}
+} */
 
 .floatcolor div{
-    padding: 20px;
+    /* padding: 20px; */
     text-align: center;
-    width: 100px;
+    
 }
 
-.red{
-background: red;
-/* float: left; */
-}
 .green{
-background: green;
+background: rgb(92, 159, 92);
+/* width: 100%; */
 /* float: left; */
+margin: 10px 0px;
+padding: 20px;
 }
 .blue{
-background: blue;
-/* float: left; */
-}
-.yellow{
-background: yellow;
-float: right;
-}
-.orange{
-background: orange;
-float: right;
+background: rgb(60, 60, 166);
+float: left;
+height: 150px;
+padding: 20px;
+width: 100%;
 }
 .skyblue{
 background: skyblue;
-float: right;
+float: left;
+height: 150px;
+padding: 20px;
+width: 100%;
+}
+.orange{
+background: rgb(243, 172, 41);
+height: 150px;
+padding: 20px;
+width: 100%;
+/* float: right; */
+}
+.chocolate{
+background:rgb(218, 122, 54);
+margin: 8px 0px;
+padding: 20px;
+
+/* float: right; */
 }
 
+
+.center{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    /* height: 100px; */
+}
