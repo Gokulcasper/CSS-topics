@@ -328,15 +328,17 @@ padding: 20px;
     /* height: 100px; */
 }
 
-.opacity1{
+.selector{
     /* display: flex;
     flex-direction: column; */
     background-color: darkgray;
-    padding: 10px;
+    padding: 20px;
+    align-items: center;
+    font-size: 18px;
     /* width: 95%; */
     /* overflow:hidden; */
 }
-.opacity1 img{
+.selector img{
     /* width: 20%;
     float: left; */
     left: 10px;
@@ -344,6 +346,45 @@ padding: 20px;
     padding: 10px;
     background-color: darkorange;
 }
+
+.selectorP2{
+    display: flex;
+    padding-right: 15px;
+}
+
+.selector span[title]{
+    color: green;
+}
+
+.selector span[title~="1"]{
+    background-color: aquamarine;
+}
+
+.selector span[title="country 2"]{
+    background-color:cadetblue;
+}
+
+.selector span a[target]{
+    background-color: skyblue;
+}
+
+[class|="selectors"]{
+    color: coral;
+}
+
+[class ^="selectors"]{
+    color:mediumvioletred;
+}
+
+[class *="P2"]{
+    color: rgb(146, 198, 12);
+}
+
+[class *="-"]{
+    color: rgb(198, 12, 37);
+}
+
+
 
 /* .opacity1{
     background-color:darkgray;
